@@ -56,18 +56,56 @@ video {margin: 50px;
 	padding:5px;
 }
 footer {
-	font-size: 30px;
-	width: 155%;
+	font-size: 10px;
+	width: 100%;  
+	background:#ffab62;
+    height:100px;
+    position:absolute;
+    bottom:10;
+    left:0;
+	text-align:center;
 	}
 .osoite {margin: 60px;
 		
 }
 h2 {
   text-shadow: 1px 1px orange;
+  font-size:28px;
 }
 	
 a:hover { color: green;   transition-duration: 0.5s;
   transition-timing-function: linear;
   transition-delay: 1s;}
 
+
+.row {		
+	color: white;
+	font-size: 20px;
+	background-color: black;
+	font-family: aerial;
+	text-align: center;
+}
+.flex-container {
+    display: flex;
+
+}
+
+.flex-child {
+    flex: 1;
+    border: 2px;
+}  
+
+.flex-child:first-child {
+    margin-right: 20px;
+
+}
+.flex-child green {
+	padding-left:200px;
+
+} 
+
+.kuutio {
+  width: 100%;
+  height: 300px;
+}
 
