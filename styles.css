@@ -73,7 +73,7 @@ h2 {
   font-size:28px;
 }
 	
-a:hover { color: green;   transition-duration: 0.5s;
+a:hover { color: red;   transition-duration: 0.5s;
   transition-timing-function: linear;
   transition-delay: 1s;}
 
